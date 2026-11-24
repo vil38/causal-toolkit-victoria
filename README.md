@@ -1,14 +1,14 @@
 # causal-toolkit-victoria
 
+[![Tests](https://github.com/vil38/causal-toolkit-victoria/workflows/Tests/badge.svg)](https://github.com/vil38/causal-toolkit-victoria/actions)
+[![PyPI version](https://badge.fury.io/py/causal-toolkit-victoria.svg)](https://pypi.org/project/causal-toolkit-victoria/)
+
 A Python package for causal inference methods: ATE estimation for randomized experiments, propensity score methods, and meta-learners for heterogeneous treatment effects. Built for ADSP 32029 Causal Models in Data Science (University of Chicago, Autumn 2026).
 
 ## Installation
 
 ```bash
-git clone https://github.com/vil38/causal-toolkit-victoria.git
-cd causal-toolkit-victoria
-uv venv
-uv pip install -e .
+pip install causal-toolkit-victoria
 ```
 On macOS, run `brew install libomp` first (needed by LightGBM).
 
